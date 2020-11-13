@@ -1,8 +1,8 @@
 <?php
+namespace App\Domain\UseCases\Login;
 
-namespace Domain\Authentication\Login;
+use App\Domain\Entities\User;
 
-use Domain\Authentication\Login\Classes\User;
 
 class LoginResponse
 {

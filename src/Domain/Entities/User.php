@@ -1,7 +1,6 @@
 <?php
+namespace App\Domain\Entities;
 
-namespace Domain\Authentication\Login\Classes;
-use Domain\Authentication\Entity\UserInterface;
 
 class User implements UserInterface
 {
@@ -16,8 +15,7 @@ class User implements UserInterface
     public string $password;
 
     public function __construct(string $userName, string $password, ?string $email, ?string $avatarUrl, ?string ...$phoneNumbers)
-    {
-        
+    {       
         $this->userName = $userName;
         $this->email = $email;
         $this->phoneNumbers = $phoneNumbers;

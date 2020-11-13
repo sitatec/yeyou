@@ -1,6 +1,5 @@
 <?php
-
-namespace Domain\Authentication\Login\Helpers;
+namespace App\Domain\Helpers;
 
 class IdentifierParser
 {

@@ -1,9 +1,7 @@
 <?php
-
-namespace Domain\Helpers;
+namespace App\Domain\Helpers;
 
 use Valitron\Validator;
-use Domain\Authentication\Login\Helpers\Identifier;
 
 abstract class FormValidator implements ValidatorInterface
 {

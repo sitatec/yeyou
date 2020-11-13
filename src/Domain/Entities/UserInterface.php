@@ -1,6 +1,5 @@
 <?php
-
-namespace Domain\Authentication\Entity;
+namespace App\Domain\Entities;
 
 interface UserInterface
 {

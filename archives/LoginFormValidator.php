@@ -2,7 +2,8 @@
 
 namespace Domain\Authentication\Login\Helpers;
 
-use Domain\Helpers\FormValidator;
+use App\Domain\Helpers\FormValidator;
+
 
 /**
  * Login form Validator

@@ -1,11 +1,9 @@
 <?php
-namespace Domain\Authentication\Login\Implementation;
+namespace App\Domain\UseCases\Login;
 
-use Domain\Authentication\Login\Helpers\IdentifierParser;
-use Domain\Authentication\Login\LoginRequest;
-use Domain\Authentication\Login\LoginResponse;
-use Domain\Authentication\Login\LoginInterface;
-use Domain\Authentication\Repository\UserRepositoryInterface;
+use App\Domain\UseCases\Login\LoginRequest;
+use App\Domain\UseCases\Login\LoginResponse;
+use App\Domain\Repositories\UserRepositoryInterface;
 
 
 class Login implements LoginInterface {

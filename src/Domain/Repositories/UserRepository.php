@@ -1,10 +1,8 @@
 <?php
+namespace App\Domain\Repositories;
 
-namespace Domain\Authentication\Login\Classes;
-
-
-use Domain\Authentication\Entity\UserInterface;
-use Domain\Authentication\Repository\UserRepositoryInterface;
+use App\Domain\Entities\User;
+use App\Domain\Entities\UserInterface;
 
 class UserRepository implements UserRepositoryInterface
 {

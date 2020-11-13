@@ -1,13 +1,14 @@
 <?php
+namespace App\Domain\tests\FunctionalTests;
 
-namespace Domain\Tests;
+use App\Domain\Entities\User;
 use PHPUnit\Framework\TestCase;
-use Domain\Authentication\Login\Classes\User;
-use Domain\Authentication\Login\LoginRequest;
-use Domain\Authentication\Login\Implementation\Login;
-use Domain\Authentication\Login\Classes\UserRepository;
-use Domain\Authentication\Login\Helpers\Identifier;
-use Domain\Authentication\Login\Helpers\IdentifierParser;
+use App\Domain\Helpers\Identifier;
+use App\Domain\UseCases\Login\Login;
+use App\Domain\Helpers\IdentifierParser;
+use App\Domain\Repositories\UserRepository;
+use App\Domain\UseCases\Login\LoginRequest;
+
 
 class LoginTest extends TestCase {
 

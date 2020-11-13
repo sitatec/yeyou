@@ -1,10 +1,10 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use App\Domain\Helpers\Identifier;
+use App\Domain\Helpers\IdentifierParser;
 use function PHPUnit\Framework\assertNull;
 use function PHPUnit\Framework\assertEquals;
-use Domain\Authentication\Login\Helpers\Identifier;
-use Domain\Authentication\Login\Helpers\IdentifierParser;
 
 
 class IdentifierParserTest extends TestCase
